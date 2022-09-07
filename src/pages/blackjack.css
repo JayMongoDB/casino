@@ -1,0 +1,42 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("/images/bellagio.jpg");
+    text-align: center;
+    margin:auto;
+ 
+}
+
+#dealer-cards img{
+    height:175px;
+    width:125px;
+    margin: 2px;
+   
+}
+
+#your-cards img{
+    height:175px;
+    width:125px;
+    margin: 1px;
+}
+
+#logo {
+    width:90%;
+    height:200px;
+    border-radius: 15px;
+    margin-top:4px;
+}
+
+#results {
+    font-size: xx-large;
+    font-family: "Brush Script MT", cursive; 
+    color:darkturquoise;
+    background-color: azure;
+    text-align: center;
+}
+
+h2{
+  margin-left: 20%;
+   
+}
