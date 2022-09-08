@@ -1,4 +1,4 @@
-import { GAMES } from '../../app/shared/GAMES';
+import { GAMES } from '../../shared/GAMES';
 import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
