@@ -5,16 +5,19 @@ import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import { Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
-
+import GamesDirectoryPage from './pages/GamesDirectoryPage.js';
+import SubHeader from './components/SubHeader';
 
 function App() {
   return (
     <div className='App'>
-    <div class='main-container'>
     <Header />
+    <SubHeader/>
+    <div class='main-container'>
+    
       <Routes>
       <Route path="/" element={<HomePage/>}/>
-
+      <Route path='directory' element={<GamesDirectoryPage />} />
       </Routes>
       </div>
       <Footer/>

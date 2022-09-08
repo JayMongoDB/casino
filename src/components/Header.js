@@ -15,6 +15,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
+        
         <Navbar dark color='primary' sticky='top' expand='md'>
 
             <NavbarBrand className='ms-5' href='/'>
@@ -32,6 +33,12 @@ const Header = () => {
                         <NavLink className='nav-link' to='/'>
                             <i className='fa fa-home fa-lg' />Home
                         </NavLink>
+                    </NavItem>
+
+                    <NavItem>
+                    <NavLink className='nav-link' to='directory'>
+                        <i className="fa fa-list fa-lg" />Directory
+                    </NavLink>
                     </NavItem>
 
 
