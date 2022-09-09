@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import HomeIcon from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/HomeIcon.jpg';
+import HomeIcon from '../app/assets/img/HomeIcon.jpg';
 
 const Header = () => {
 

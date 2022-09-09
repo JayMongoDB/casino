@@ -1,6 +1,6 @@
 import { Container} from 'reactstrap';
 import GamesList from '../features/games/GamesList';
-import SubHeader from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/components/SubHeader.js'; 
+import SubHeader from '../components/SubHeader'; 
 
 const GamesDirectoryPage = () => {
 

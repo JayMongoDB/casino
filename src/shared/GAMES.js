@@ -1,8 +1,8 @@
-import pokerImg from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/poker.jpg';
-import crapsImg from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/craps.jpg';
-import bjImg from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/blackjack.jpg';
-import rouletteImg from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/roulette.jpg';
-import slotsImg from '/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/slots.jpg';
+import pokerImg from '../app/assets/img/poker.jpg';
+import crapsImg from '../app/assets/img/craps.jpg';
+import bjImg from '../app/assets/img/blackjack.jpg';
+import rouletteImg from '../app/assets/img/roulette.jpg';
+import slotsImg from '../app/assets/img/slots.jpg';
 
 export const GAMES = [
     {
