@@ -75,7 +75,7 @@ h2 {
 }
 
 .main-container{
-  background-image:url("/Users/jeremymcgowan/Desktop/NucampFolder/3-React/casino/src/app/assets/img/LasVegasHP.jpg");
+  background-image:url("../src/app/assets/img/LasVegasHP.jpg");
   background-size:cover;
   height:100vh;
 

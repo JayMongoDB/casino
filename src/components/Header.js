@@ -9,6 +9,7 @@ import {
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import HomeIcon from '../app/assets/img/HomeIcon.jpg';
+import UserLoginForm from '../features/user/UserLoginForm';
 
 const Header = () => {
 
@@ -43,6 +44,7 @@ const Header = () => {
 
 
                 </Nav>
+                <UserLoginForm/>
             </Collapse>
 
 
